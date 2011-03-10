@@ -1,14 +1,46 @@
 body {
 	font-size: 11pt;
 	font-family:Verdana;
-	padding:0px;
-	margin:0px;
+	width:80%;
+	margin:15px auto;
 }
 
-#header {
+#page {
+	
+}
+
+#page_header {
+	background-color:#A3C7CF;
+}
+header#page_header h1 {
+	color:#568D9A;
 	font-size:xx-large;
+	padding: 0.4em;
 }
 
-#footer {
-	border-top: 0.1em solid #777;
+header#page_header nav ul, #page_footer nav ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
 }
+
+header#page_header nav ul li, #page_footer nav ul li {
+	padding:0;
+	margin:0 0.5em 0 0;
+	display:inline;
+}
+
+header#page_header nav {
+	background-color:#B6AED8;
+}
+
+#page_footer {
+	display:block;
+	clear:both;
+	font-size: smaller;
+	border-top: 0.1em solid #777;
+	background-color:#B6AED8;
+	text-align:center;
+}
+
+

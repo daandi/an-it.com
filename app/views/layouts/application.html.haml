@@ -1,4 +1,4 @@
-!!! XML
+!!! 5
 !!!
 %html
 	%head
@@ -6,13 +6,27 @@
 		= stylesheet_link_tag :all
 		= javascript_include_tag :defaults
 	%body
-		#header
-			%h1 Header
-		#navigation
-			%ul
-				%li Test
-				%li Test2
-		#content
+		%header{:id => "page_header"}
+			%h1 AN-iT
+			%nav
+				%ul
+					%li Test
+					%li Test2
+		%section{:id => "main_section"}
 			=yield
-		#footer Footer
+		%footer{:id => "page_footer"}
+			%nav
+				%ul
+					%li Test
+					%li Test2
+			%section{:id => "cr"}
+				#hcard-Andreas-Neumann{:class =>'vcard'}
+					.fn Andreas Neumann
+					#org AN-iT
+					.email{:href=> 'mailto:andreas.neumann@an-it.com">andreas.neumann@an-it.com'}
+					.adr
+						.street-adress Wagerstraße 10
+						.locality Höhenkirchen
+						.postal-code 85635
+						.contry-name Deutschland
 		
