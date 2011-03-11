@@ -11,15 +11,15 @@
 				=image_tag "AN-iT-Logo.png"
 				%nav
 					%ul
-						%li=link_to 'Home', 'home'
-						%li=link_to 'Kontakt', 'kontakt'
+						%li=link_to 'Home', :controller => 'page', :action => 'home'
+						%li=link_to 'Kontakt',  :controller => 'page', :action => 'kontakt'
 			%section{:id => "main_section"}
 				=yield
 			%footer{:id => "page_footer"}
 				%nav
 					%ul
-						%li=link_to 'Home', 'home'
-						%li=link_to 'Kontakt', 'kontakt'
+						%li=link_to 'Home', :controller => 'page', :action => 'home'
+						%li=link_to 'Kontakt', :controller => 'page', :action => 'kontakt'
 				%section{:id => "cr"}
 					&copy; Andreas Neumann 2011
 				%section{:id => "adresse"}
