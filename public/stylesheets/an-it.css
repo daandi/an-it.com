@@ -3,7 +3,7 @@ body {
 	font-family:Tahoma;
 	width:80%;
 	margin:15px auto;
-	background-color:#0f586a;
+	background-color:#111;
 	color:#ccc;
 }
 
@@ -21,12 +21,12 @@ a:hover {
 }
 
 h1 {
-	margin:0.3em 0.5em;
+	margin:0.3em 0.6em;
 	background-color:#E36500;
 	color:#fff;
-	padding:0.2em;
-	-moz-border-radius: 0.5em;
-	-webkit-border-radius: 0.5em;
+	padding:0.3em;
+	-moz-border-radius-topleft: 1em;
+	-moz-border-radius-bottomright: 1em;
 }
 
 h2 {
@@ -75,8 +75,8 @@ section#main_section {
 	display:block;
 	background-color:#98bfc9;
 	border-top: 0.3em solid #B3B3B3;
-	border-bottom: 0.3em solid #B3B3B3;
-	color:#333;
+	border-bottom: 0.1em solid #B3B3B3;
+	color:#222;
 }
 
 #page_footer {
