@@ -8,6 +8,8 @@ AnItCom::Application.routes.draw do
   get "projekte/index"
 
   get "projekt/index"
+  
+  root :to => "page#home"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
