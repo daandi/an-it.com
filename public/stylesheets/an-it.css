@@ -10,14 +10,27 @@ body {
 
 h1 {
 	margin:0.3em 0.6em;
-	color:#E36500;
+	margin-bottom:1em;
 	padding:0.2em;
-	border-bottom:0.2em solid #E36500;
+	border-bottom:0.2em solid #24849E;
 }
 
 h2 {
+	margin:0;
 	color:#333;
-	margin:0 1em;
+	background-color:#EEE;
+	border-bottom: 0.2em solid #B2B3B3;
+	padding: 0.3em;
+	
+}
+
+a {
+	color: #E36500;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 section#page {
@@ -109,5 +122,25 @@ section#main_section ul{
 	margin:1em;
 	padding: 0.5em;
 }
+
+article.projekt {
+	margin: 1em 3em;
+	border: 0.1em solid #B2B3B3;
+}
+
+article.projekt aside{ 
+	width:35%;
+	float:right;
+	margin:0.3em;
+	padding:0.2em;
+	background-color: #EEE;
+}
+
+article.projekt section{
+	padding:1em;
+	font-size:85%;
+}
+
+
 
 

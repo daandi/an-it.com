@@ -1,6 +1,7 @@
 AnItCom::Application.routes.draw do
-  match 'kontakt' => 'page#kontakt'
-  root :to => "page#home"
+  match 'kontakt' => 'pages#kontakt'
+  match 'projekte' => 'pages#projekte'
+  root :to => "pages#home"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
