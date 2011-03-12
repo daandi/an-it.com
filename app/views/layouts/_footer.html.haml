@@ -1,0 +1,17 @@
+%footer{:id => "page_footer"}
+	%nav
+		%ul
+			%li=link_to 'Home', root_path
+			%li=link_to 'Kontakt', kontakt_path
+	%section{:id => "cr"}
+		&copy; Andreas Neumann 2011
+	%section{:id => "adresse"}
+		#hcard-AN-iT{:class =>'vcard'}
+			#org AN-iT
+			.email{:href=> 'mailto:info@an-it.com">andreas.neumann@an-it.com'}
+			.adr
+				.street-adress Wagerstraße 10
+				.postal-code 85635
+				.locality Höhenkirchen
+				.contry-name Deutschland
+	.clear
