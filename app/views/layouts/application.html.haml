@@ -7,28 +7,7 @@
 		= javascript_include_tag :defaults
 	%body
 		%section{:id => 'page'}
-			%header{:id => "page_header"}
-				=image_tag "AN-iT-Logo.png"
-				%nav
-					%ul
-						%li=link_to 'Home', :controller => 'page', :action => 'home'
-						%li=link_to 'Kontakt',  :controller => 'page', :action => 'kontakt'
+			=render 'layouts/header'
 			%section{:id => "main_section"}
 				=yield
-			%footer{:id => "page_footer"}
-				%nav
-					%ul
-						%li=link_to 'Home', :controller => 'page', :action => 'home'
-						%li=link_to 'Kontakt', :controller => 'page', :action => 'kontakt'
-				%section{:id => "cr"}
-					&copy; Andreas Neumann 2011
-				%section{:id => "adresse"}
-					#hcard-Andreas-Neumann{:class =>'vcard'}
-						#org AN-iT
-						.email{:href=> 'mailto:info@an-it.com">andreas.neumann@an-it.com'}
-						.adr
-							.street-adress Wagerstraße 10
-							.locality Höhenkirchen
-							.postal-code 85635
-							.contry-name Deutschland
-				#clear
+			=render 'layouts/footer'

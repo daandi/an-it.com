@@ -1,14 +1,5 @@
 AnItCom::Application.routes.draw do
-  get "page/kontakt"
-
-  get "page/impressum"
-
-  get "page/home"
-
-  get "projekte/index"
-
-  get "projekt/index"
-  
+  match 'kontakt' => 'page#kontakt'
   root :to => "page#home"
 
   # The priority is based upon order of creation:
