@@ -64,6 +64,7 @@ header#page_header nav {
 	margin-top:3em;
 	float:right;
 	background-color:#fff;
+	border:0.2em solid #B3B3B3;
 
 }
 
@@ -124,7 +125,7 @@ section#main_section ul{
 	float:left;
 }
 
-#clear {
+.clear {
 	clear:both;
 }
 
