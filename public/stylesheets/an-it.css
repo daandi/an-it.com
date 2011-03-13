@@ -115,6 +115,7 @@ section#main_section ul{
 #adresse , #cr{
 	display:inline;
 	font-size:xx-small;
+	padding: 1em;
 }
 
 #adresse {
@@ -127,6 +128,13 @@ section#main_section ul{
 
 .clear {
 	clear:both;
+}
+
+.adr {
+	margin-left: 0.5em;
+}
+#org {
+	font-weight:bolder;
 }
 
 .vcard {
@@ -152,6 +160,9 @@ article section{
 	font-size:85%;
 }
 
+#karte {
+	margin: 2em;
+}
 
 
 
