@@ -1,8 +1,20 @@
 %header{:id => "page_header"}
-	=link_to image_tag("AN-iT-Logo.png"), root_path
+	=link_to image_tag("AN-iT-Logo.png", :size => '200x101'), root_path
 	%nav
 		%ul
 			%li=link_to 'Home', root_path
 			%li=link_to 'Projekte', projekte_path
 			%li=link_to 'Vorträge', vortraege_path
 			%li=link_to 'Kontakt',  kontakt_path
+	#mobile_button Navigation
+	:javascript
+		$(document).ready(function(){
+			mobile_navigation();
+			}
+		);
+		
+		function mobile_navigation() {
+			$("#mobile_button").click(function() {
+				$("#page_header nav").slideToggle();
+			})
+		}

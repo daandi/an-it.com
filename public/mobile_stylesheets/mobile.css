@@ -1,0 +1,50 @@
+body {
+	width:310px;
+	font-size:13pt;
+}
+
+header#page_header {
+	text-align:center;
+}
+
+header#page_header img{
+	margin:0.3em;
+}
+
+header#page_header nav {
+	display:none;
+	border:none;
+	float:none;
+	margin:auto;
+	padding:0.3em;
+	background-color:#24849E;
+	
+}
+
+header#page_header nav ul li {
+
+}
+
+header#page_header nav ul li a {
+	display:block;
+	width:70%;
+	background-color:none;
+	border:0.2em solid #B3B3B3;
+	margin:auto;
+}
+
+#mobile_button {
+	display:block;
+	font-size:larger;
+	padding:0.3em;
+	margin:1em 14%;
+	width:70%;
+	border:0.1em solid #B3B3B3;
+	-webkit-border-radius:0.5em;
+	color:#fff;
+}
+
+article {
+	margin:0.5em;
+}
+
