@@ -1,6 +1,6 @@
 body {
 	font-size: 12pt;
-	font-family:Tahoma;
+	font-family:Tahoma,sans-serif;
 	width:80%;
 	margin:15px auto;
 	background-color:#222;
@@ -145,6 +145,7 @@ section#main_section ul{
 article {
 	margin: 1em 3em;
 	border: 0.1em solid #B2B3B3;
+	display:block;
 }
 
 article aside{ 
