@@ -64,8 +64,6 @@ header#page_header nav ul li, #page_footer nav ul li {
 header#page_header nav {
 	margin-top:3em;
 	float:right;
-	background-color:#fff;
-	border:0.2em solid #B3B3B3;
 }
 
 header#page_header nav li{
@@ -156,8 +154,10 @@ article aside{
 	width:35%;
 	float:right;
 	margin:0.3em;
-	padding:0.2em;
+	padding:0.4em;
 	background-color: #EEE;
+	-webkit-border-radius:0.5em;
+	-moz-border-radius:0.5em;
 }
 
 article section{
