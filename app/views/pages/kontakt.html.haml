@@ -10,14 +10,17 @@
 			.postal-code 85635
 			.locality Höhenkirchen
 			.contry-name Deutschland
-		#tel	
-			Tel.:	
+%article
+	%header
+		%h2 Telefon und Email
+	%section
+		%p
+			%strong Tel.:	
 			%a{ 'href' => 'tel:+49-176-811-43664'}
 				+49 176 811 43664
-		#email
-			Email:
+		%p
+			%strong Email:
 			=mail_to 'info@an-it.com'
-		
 		
 %article
 	%header
