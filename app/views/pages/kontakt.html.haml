@@ -5,14 +5,20 @@
 	#hcard-Andreas-Neumann{:class =>'vcard'}
 		.fn Andreas Neumann
 		#org AN-iT
-		.email{:href=> 'mailto:andreas.neumann@an-it.com">andreas.neumann@an-it.com'}
 		.adr
 			.street-adress Wagerstraße 10
 			.postal-code 85635
 			.locality Höhenkirchen
 			.contry-name Deutschland
-		%a{ 'href' => 'tel:+49-176-811-43664'}
-			Tel.: +49 176 811 43664
+		#tel	
+			Tel.:	
+			%a{ 'href' => 'tel:+49-176-811-43664'}
+				+49 176 811 43664
+		#email
+			Email:
+			=mail_to 'info@an-it.com'
+		
+		
 %article
 	%header
 		%h2 Anfahrt
