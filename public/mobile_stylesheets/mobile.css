@@ -1,5 +1,5 @@
 body {
-	width:310px;
+	width:100%;
 	font-size:13pt;
 }
 
@@ -47,4 +47,13 @@ header#page_header nav ul li a {
 article {
 	margin:0.5em;
 }
+
+#andreas-neumann {
+	margin:0.5em;
+}
+
+#andreas-neumann {
+	width:80%;
+}
+
 
