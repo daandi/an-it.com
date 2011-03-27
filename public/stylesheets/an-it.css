@@ -165,6 +165,16 @@ article section{
 	font-size:85%;
 }
 
+article img {
+	float:left;
+	margin:1em;
+}
+
+#andreas-neumann {
+	border:0.1em solid #333;
+	margin:2em;
+}
+
 #karte {
 	margin: 2em;
 }
