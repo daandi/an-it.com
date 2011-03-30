@@ -121,6 +121,7 @@ section#main_section ul{
 
 #adresse {
 	float:right;
+	text-align:left;
 }
 
 #cr {
