@@ -42,7 +42,7 @@ module AnItCom
     # Template Engine haml
     config.generators do |g|
       g.template_engine :haml
-      g.test_framework :haml
+      g.test_framework :rspec
     end
     
   end
