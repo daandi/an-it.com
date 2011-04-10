@@ -56,4 +56,16 @@ article {
 	width:80%;
 }
 
+#karte {
+
+	padding:0;
+	margin:0;
+	overflow:auto;
+}
+
+#karte img {
+	width:100%;
+	margin:0;
+}
+
 
