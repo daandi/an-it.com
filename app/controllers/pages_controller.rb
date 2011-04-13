@@ -16,5 +16,9 @@ class PagesController < ApplicationController
   def projekte
       @page_title = "Projekte"
   end
+  
+  def webseiten
+      @page_title = "Webseiten"
+  end
 
 end
