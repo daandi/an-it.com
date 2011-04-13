@@ -100,6 +100,35 @@ section#main_section ul{
 	margin-left: 2em;
 }
 
+article {
+	margin: 1em 3em;
+	border: 0.1em solid #B2B3B3;
+	display:block;
+	overflow:auto;
+}
+
+aside{ 
+	width:35%;
+	float:right;
+	margin:0.3em;
+	padding:0.7em;
+	font-style:italic;
+	font-size:smaller;
+	background-color: #EEE;
+	-webkit-border-radius:0.5em;
+	-moz-border-radius:0.5em;
+}
+
+article section{
+	padding:1em;
+	font-size:85%;
+}
+
+article img {
+	float:left;
+	margin:1em;
+}
+
 #page_footer {
 	display:block;
 	clear:both;
@@ -144,32 +173,6 @@ section#main_section ul{
 	padding: 0.5em;
 }
 
-article {
-	margin: 1em 3em;
-	border: 0.1em solid #B2B3B3;
-	display:block;
-	overflow:auto;
-}
-
-article aside{ 
-	width:35%;
-	float:right;
-	margin:0.3em;
-	padding:0.4em;
-	background-color: #EEE;
-	-webkit-border-radius:0.5em;
-	-moz-border-radius:0.5em;
-}
-
-article section{
-	padding:1em;
-	font-size:85%;
-}
-
-article img {
-	float:left;
-	margin:1em;
-}
 
 #andreas-neumann {
 	border:0.1em solid #333;
