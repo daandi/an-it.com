@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.an-it.com/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.an-it.com/projekte</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.an-it.com/vortraege</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.an-it.com/kontakt</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.an-it.com/vortrag/MobilerOPAC_Verbundkonferenz_2010.pdf</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.an-it.com/vortrag/MobilerOPAC_InetBib_2010.pdf</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+	<url><loc>http://www.an-it.com</loc></url>
+	<url><loc>http://www.an-it.com/kontakt</loc></url>
+	<url><loc>http://www.an-it.com/projekte</loc></url>
+	<url><loc>http://www.an-it.com/vortraege</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/Mobile_OPACs-Perspektiven_und_Chancen.pdf</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/MobilerOPAC_InetBib_2010.pdf</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/MobilerOPAC_Verbundkonferenz_2010.pdf</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/video/Digitalisate.m4v</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/video/Kontoverwaltung_Mehrsprachigkeit.m4v</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/video/LBS.m4v</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/video/Mashups.m4v</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/video/OPACplus mobil - Bestellvorgang.m4v</loc></url>
+	<url><loc>http://www.an-it.com/vortrag/video/OPACplus mobil - Recherche.m4v</loc></url>
+	<url><loc>http://www.an-it.com/websites</loc></url>
 </urlset>
