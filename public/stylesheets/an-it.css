@@ -188,6 +188,12 @@ article img {
 	margin: 1em;
 }
 
+#like_buttons {
+	text-align:right;
+}
 
+#like_buttons li {
+	list-style:none;
+}
 
 
