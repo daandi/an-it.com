@@ -189,11 +189,16 @@ article img {
 }
 
 #like_buttons {
-	text-align:right;
+	text-align:left;
+	float:right;
+	margin-right:1em;
 }
 
 #like_buttons li {
 	list-style:none;
 }
 
+.projectPicture {
+	float:right;
+}
 
