@@ -5,6 +5,7 @@ AnItCom::Application.routes.draw do
   match 'vortraege' => 'pages#vortraege'
   match 'html5-test' => 'pages#html5_test'
   match 'websites' => 'pages#websites'
+  match 'impressum' => 'pages#impressum'
   root :to => "pages#home"
 
   # The priority is based upon order of creation:
