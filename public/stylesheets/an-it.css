@@ -100,7 +100,7 @@ section#main_section {
 
 section#main_section ul{
 	list-style: square;
-	font-size:smaller;
+	font-size:small;
 	margin-left: 2em;
 }
 
