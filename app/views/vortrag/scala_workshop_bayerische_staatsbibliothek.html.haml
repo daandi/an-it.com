@@ -1,0 +1,35 @@
+%h1 Vorträge 2012
+%article
+	%header
+		%h2 Scala Workshop - Bayerische Staatsbibliothek
+	%section
+		%p
+			Der Workshop fand im Stabsreferat Informationstechnologie der
+			=link_to 'Bayerischen Staatsbibliothek','http://www.bsb-muenchen.de/', :rel => 'nofollow'
+			statt zur Übergabe der VTA2 statt.
+		%p
+			Der Workshop bietet eine Einführung in Benutzung der Programmiersprache
+			=link_to 'Scala','http://www.scala-lang.org/', :rel => 'nofollow'
+			\.
+			Viele Teile des Workshops können life in der REPL nachvollzogen werden.
+			Im Detal werden folgende Themen behandelt: 
+			%ol
+				%li Was ist Scala
+				%li Scala, a SCAlable LAnguage: kompiliert, als Scriptsprache und im REPL
+				%li Scala Basics: vals, var, Funktionen, Syntaxregeln
+				%li Objektorientierung in Scala: class, object, trait
+				%li Funktionale Elemente in Scala: case classes, pattern matching, Extractors, Funktional und Imperativ, ein Vergleich
+				%li Fortgeschrittene Sprachelemente: XML-Literale und XML-Bearbeitung, For-Comprehensions, Parallele Collections, Implicits, eigene Kontrollstrukturen definieren, Class composition mit Traits
+				%li Scala Bibliotheken Anwenden: Reguläre Ausdrücke, Asynchrone Parallelität mit Aktoren
+				%li 
+					Scala Tooling: Das Build-Tool
+					%strong sbt
+					,
+					Scala Vorlagen mit
+					%strong g8
+					,
+					BDD- Tests mit
+					%strong specs2
+			%p=link_to 'Quelltexte zum Workshop', '/vortrag/sources/scala-workshop-sources.zip'
+			
+		=render :partial =>'shared/download_file', :locals => {:file => '/vortrag/Scala-Workshop-BSB-2012.pdf'}
