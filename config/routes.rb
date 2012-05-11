@@ -17,6 +17,7 @@ AnItCom::Application.routes.draw do
   get 'vortrag/soziale_netzwerke_bezirksjugendwerk_der_awo_westliches_westfalen'
   get 'vortrag/scala_workshop_bayerische_staatsbibliothek'
   get 'vortrag/soziale_netzwerke_effektiv_nutzen_am_beispiel_von_facebook_twitter_und_google'
+  get 'vortrag/scala_workshop_smarchive_edition'
   
 
   # The priority is based upon order of creation:

@@ -1,0 +1,22 @@
+%article
+	%header
+		%h2 Scala Workshop - Smarchive Edition
+	%section
+		%p
+			Der Workshop für das Developer-Team der 
+			=link_to 'Smarchive GmbH','https://www.smarchive.de/', :rel => 'nofollow'
+			fusst auf dem Workshop für die Bayerische Staatsbibliothek:
+			=link_to 'Scala Workshop Bayerische Staatsbibliothek',''
+		%p
+			Neben einer Einführung in die Benutzung der Sprache und besonderen Sprachelementen beschäftigt sich der Workshop darüber hinaus mit folgenden fortgeschrittenen Scala-Themen
+			%ol
+				%li Arbeiten mit Option-Types: Option vs. null
+				%li
+					Patterns in Scala:
+					%ul
+						%li Structural Typing: Schönes aus der Welt der funktionalen Programmierung
+						%li Pimp-My-Library: Schmerfreie Integration und Anpssung fremder Bibliothekn für den eignen Workflow
+						%li Das Cake-Pattern: Dependency-Injection mit Sprachmitteln ohne Zusatzbibliothekn und ewiger XML-Konfigurationsorgien
+			%p=link_to 'Quelltexte zum Workshop', '/vortrag/sources/smarchive-scala-sources.zip'
+			
+		=render :partial =>'shared/download_file', :locals => {:file => '/vortrag/smarchive_scala_workshop.pdf'}

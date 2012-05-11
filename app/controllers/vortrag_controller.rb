@@ -31,6 +31,9 @@ class VortragController < ApplicationController
   def soziale_netzwerke_effektiv_nutzen_am_beispiel_von_facebook_twitter_und_google
   end
   
+  def scala_workshop_smarchive_edition
+  end
+  
   
 
 end
