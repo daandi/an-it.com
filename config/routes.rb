@@ -1,8 +1,15 @@
 #coding: utf-8
 AnItCom::Application.routes.draw do
+  
+  match 'projects' => 'projects#index'
+  get "projects/BSB_OPAC_plus"
+  get "projects/RUBopac_mobil"
+  get "projects/Stadtbibliothek_Bremen_OPAC_mobil"
+
+  get "projects/VTA"
 
   match 'kontakt' => 'pages#kontakt'
-  match 'projekte' => 'pages#projekte'
+  match 'projekte' => 'pages#projects'
   match 'html5-test' => 'pages#html5_test'
   match 'websites' => 'pages#websites'
   match 'impressum' => 'pages#impressum'

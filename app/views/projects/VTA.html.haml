@@ -1,0 +1,33 @@
+%header
+	%h1 Volltxtsuche auf OCR-Texten mit Ergebnispräsentation auf Originaldokumenten
+%section
+	%p
+		Das Projekt umfasst mehrere Komponenten zur Suche und Anzeige von im OCR-Orozess gewonnen Daten.
+	%article
+		%h2 Anzeigekomponente
+		%p
+			Die Anzeigekomponente erlaubt synchrone Anzeige auf dem graphischen Abbild des Dokuments und in der reinen Textrepräsentation.
+			Sowhohl eine spätere Abänderung der Suche, wie acuh Highlighting sind möglich.
+			Die beiden Komponenten lassen sich auch problemlos getrennt einsetzen.
+			Die oberfläche ist hochflexibel, erlaubt den Wechesel von graphischer zu symbolischer (textueller) Repräsentation des Dokuments.
+			Die Umsetzung benötig keine Zusatzsoftware und ist in jedem Handelsüblichen Browser lauffähig.
+	
+	%article
+		%h2 Suchkomponente
+		%p
+			Erlaubt das Suchen im Volltext eines mit OCR bearbeiteten Dokuments.
+			Die flexible Suchkomponente lässt sich mit verschiedenn verbreitetn Suchmaschinen, wie z.B. FAST oder Lucene betreiben und erlaubt auch eine konföderierte Suche über mehre Quellen / Indices / Suchmaschinen hinweg.
+	%article
+		%h2 Einsatz
+		%p=image_tag 'VTA2.png' , :class => 'projectPicture'
+		%p	
+			Die Volltxtsuche auf OCR-Texten mit Ergebnispräsentation auf Originaldokumenten findet unter anderem Einsatz auf
+			%ul
+				%li
+					%p=link_to "Chronicon : historicum.net ","http://www.historicum.net/home/", :rel => "nofollow"
+					%p=link_to "Beispiel", "http://www.historicum.net/search?q=bsb10376791&db=15&View=hist&q=&q=%22K%C3%B6nig+Ludwig%22&showFulltextPage=115", :rel => "nofollow"
+				%li
+					%p=link_to "VIFA MUSIK : Virtuellen Fachbibliothek Musikwissenschaft","https://www.vifamusik.de/", :rel => "nofollow"
+					%p=link_to "Beispiel", "http://www.vifamusik.de/search?q=bsb10527398&db=17&View=mus&q=kadenz&showFulltextPage=169", :rel => "nofollow"
+		
+	

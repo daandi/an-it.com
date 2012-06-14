@@ -6,5 +6,7 @@
 			=render 'layouts/header'
 			%section{:id => "main_section"}
 				=yield
+				%div{:class => "cleaner"}
 				=render :partial=>'shared/like'
+				
 			=render 'layouts/footer'
