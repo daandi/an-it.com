@@ -1,0 +1,17 @@
+%article 
+	%header
+		%h2 
+			Der mobile OPAC der bayerischen Staatsbibliothek
+	%section
+		%p 
+			Der Vortrag wurde zuerst auf dem Bibliothekarstag 2010 in Leipzig am Stand der Zukunftswerkstatt gehalten.
+			In erweiterter Form wurde der Vortag dann auf der
+			=link_to 'InetBib 2010', 'http://www.ub.tu-dortmund.de/inetbib2010/', :rel => 'nofollow'
+			am 14.05.2010 im Audimax der ETH Zürich gehalten.
+		%p
+			Inhalte des Vortrags sind:
+			%ol
+				%li Anforderung an eine mobile Anwendung
+				%li App, WebApp - Neuentwicklung oder Anpassung
+				%li Umsetzung : Der OPACplus mobil der Bayerischen Staatsbibliothek
+		=render :partial =>'shared/download_file', :locals => {:file => '/vortrag/MobilerOPAC_InetBib_2010.pdf'}

@@ -1,12 +1,31 @@
 #coding: utf-8
 AnItCom::Application.routes.draw do
+  
+  match 'projects' => 'projects#index'
+  get "projects/BSB_OPAC_plus"
+  get "projects/RUBopac_mobil"
+  get "projects/Stadtbibliothek_Bremen_OPAC_mobil"
+
+  get "projects/VTA"
+
   match 'kontakt' => 'pages#kontakt'
-  match 'projekte' => 'pages#projekte'
-  match 'vortraege' => 'pages#vortraege'
+  match 'projekte' => 'pages#projects'
   match 'html5-test' => 'pages#html5_test'
   match 'websites' => 'pages#websites'
   match 'impressum' => 'pages#impressum'
   root :to => "pages#home"
+  
+  match 'vortraege' => 'vortrag#index'
+  get 'vortrag/mobile_opacs_bayerische_opacs_immer_und_ueberall'
+  get 'vortrag/der_mobile_opac_der_bayerischen_staatsbibliothek'
+  get 'vortrag/mobile_opacs_perspektiven_und_chancen'
+  get 'vortrag/web_20_social_network_services'
+  get 'vortrag/web_20_in_bibliotheken'
+  get 'vortrag/soziale_netzwerke_bezirksjugendwerk_der_awo_westliches_westfalen'
+  get 'vortrag/scala_workshop_bayerische_staatsbibliothek'
+  get 'vortrag/soziale_netzwerke_effektiv_nutzen_am_beispiel_von_facebook_twitter_und_google'
+  get 'vortrag/scala_workshop_smarchive_edition'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
