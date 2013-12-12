@@ -1,0 +1,29 @@
+%article
+	%header
+		%h2 Scala Workshop - Monaden und Stackable Traits
+	%section
+		%p
+			Der Workshop für das Semantic Team der
+			=link_to 'Gini GmbH','http://www.gini.net/', :rel => 'nofollow'
+			statt zur Übergabe der VTA2 statt.
+		%p
+			Der Workshop bietet einen Überblick über diverese Neuerungen in Scala wie Future- und Try- Monaden und zeigt wie man mit Stackable Traits composition realisiern kann.
+			Es ahndelt sich um einen Workshop mit Live-Coding-Teil
+			Im Detal werden folgende Themen behandelt: 
+			%ol
+				%li Was ist eine Monade, was für Vorteile bringt es für Entwickler das Konzept zu kennen
+				%li map, flatMap, filter und for-Comprehensions
+				%li 
+					Monaden in Scala:
+					%ol
+						%li Option-Monade
+						%li Either-Monade
+						%li Try (Monadenartig)
+						%li Future
+				%li Composition mit Stackable Traits
+				%li Beispiel zur Dispatch Library (kurz)
+				%li Specs 2 : Acceptance-Test-Notation
+
+			%p=link_to 'Quelltexte zum Workshop', '/vortrag/sources/scala_monads_and_stackable_traits.zip'
+			
+		=render :partial =>'shared/download_file', :locals => {:file => '/vortrag/scala_monads_and_stackable_traits.pdf'}

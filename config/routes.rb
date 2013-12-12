@@ -28,6 +28,7 @@ AnItCom::Application.routes.draw do
   get 'vortrag/scala_workshop_smarchive_beginner'
   get 'vortrag/scala_parallel_collections'
   get 'vortrag/youtrack_talk'
+  get 'vortrag/scala_monads_and_stackable_traits'
   
 
   # The priority is based upon order of creation:
