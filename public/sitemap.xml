@@ -1,17 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
-	<url><loc>http://www.an-it.com</loc></url>
-	<url><loc>http://www.an-it.com/kontakt</loc></url>
-	<url><loc>http://www.an-it.com/projekte</loc></url>
-	<url><loc>http://www.an-it.com/vortraege</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/Mobile_OPACs-Perspektiven_und_Chancen.pdf</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/MobilerOPAC_InetBib_2010.pdf</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/MobilerOPAC_Verbundkonferenz_2010.pdf</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/video/Digitalisate.m4v</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/video/Kontoverwaltung_Mehrsprachigkeit.m4v</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/video/LBS.m4v</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/video/Mashups.m4v</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/video/OPACplus mobil - Bestellvorgang.m4v</loc></url>
-	<url><loc>http://www.an-it.com/vortrag/video/OPACplus mobil - Recherche.m4v</loc></url>
-	<url><loc>http://www.an-it.com/websites</loc></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.an-it.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortraege</loc>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/websites</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/projekte</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/kontakt</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/impressum</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/scala_workshop_bayerische_staatsbibliothek</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/soziale_netzwerke_effektiv_nutzen_am_beispiel_von_facebook_twitter_und_google</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/soziale_netzwerke_bezirksjugendwerk_der_awo_westliches_westfalen</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/web_20_social_network_services</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/web_20_in_bibliotheken</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/mobile_opacs_perspektiven_und_chancen</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/mobile_opacs_bayerische_opacs_immer_und_ueberall</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/der_mobile_opac_der_bayerischen_staatsbibliothek</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/Scala-Workshop-BSB-2012.pdf</loc>
+  <lastmod>2012-04-18T17:07:07+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/Soziale-Netzwerke-effektiv-nutzen.pdf</loc>
+  <lastmod>2012-03-13T09:03:25+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/Soziale-Netzwerke-AWO-BJWWW.pdf</loc>
+  <lastmod>2011-12-05T11:56:10+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/Soziale_Netzwerke_Workshop_Bibliotheksschule.pdf</loc>
+  <lastmod>2011-11-28T19:46:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/Web20_in_Bibliotheken_Workshop_Bibliotheksschule.pdf</loc>
+  <lastmod>2011-11-28T19:46:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/Mobile_OPACs-Perspektiven_und_Chancen.pdf</loc>
+  <lastmod>2011-04-13T16:29:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/MobilerOPAC_Verbundkonferenz_2010.pdf</loc>
+  <lastmod>2011-03-16T15:43:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/MobilerOPAC_InetBib_2010.pdf</loc>
+  <lastmod>2011-03-16T15:43:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 </urlset>

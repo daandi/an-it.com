@@ -34,6 +34,7 @@ class VortragController < ApplicationController
   def scala_workshop_smarchive_edition
   end
   
-  
+  def scala_monads_and_stackable_traits
+  end 
 
 end
