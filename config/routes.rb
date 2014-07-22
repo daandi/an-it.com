@@ -1,6 +1,6 @@
 #coding: utf-8
 AnItCom::Application.routes.draw do
-  
+
   match 'projects' => 'projects#index'
   get "projects/BSB_OPAC_plus"
   get "projects/RUBopac_mobil"
@@ -14,7 +14,7 @@ AnItCom::Application.routes.draw do
   match 'websites' => 'pages#websites'
   match 'impressum' => 'pages#impressum'
   root :to => "pages#home"
-  
+
   match 'vortraege' => 'vortrag#index'
   get 'vortrag/mobile_opacs_bayerische_opacs_immer_und_ueberall'
   get 'vortrag/der_mobile_opac_der_bayerischen_staatsbibliothek'
@@ -29,7 +29,8 @@ AnItCom::Application.routes.draw do
   get 'vortrag/scala_parallel_collections'
   get 'vortrag/youtrack_talk'
   get 'vortrag/scala_monads_and_stackable_traits'
-  
+  get 'vortrag/introduction_to_scala_clueda'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
