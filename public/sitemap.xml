@@ -31,6 +31,10 @@
   <priority>0.10</priority>
 </url>
 <url>
+  <loc>http://www.an-it.com/vortrag/scala_monads_and_stackable_traits</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://www.an-it.com/vortrag/scala_workshop_bayerische_staatsbibliothek</loc>
   <priority>0.80</priority>
 </url>
@@ -61,6 +65,11 @@
 <url>
   <loc>http://www.an-it.com/vortrag/der_mobile_opac_der_bayerischen_staatsbibliothek</loc>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.an-it.com/vortrag/scala_monads_and_stackable_traits.pdf</loc>
+  <lastmod>2012-04-18T17:07:07+00:00</lastmod>
+  <priority>0.75</priority>
 </url>
 <url>
   <loc>http://www.an-it.com/vortrag/Scala-Workshop-BSB-2012.pdf</loc>
